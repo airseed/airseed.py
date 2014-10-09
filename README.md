@@ -1,4 +1,4 @@
-# Airseed.rb
+# Airseed.py
 
 TODO: Write a gem description
 
@@ -18,17 +18,17 @@ To install it, simply:
 
     airseed = Airseed.Airseed(client_id, client_secret)
 
-    oauth = OAuth.OAuth(airseed, callback_url='https://www.example.com/callback')
-    oauth.login(provider='google_auth2')
+    oauth = OAuth.OAuth(airseed, callback_url = 'https://www.example.com/callback')
+    oauth.login(provider = 'google_auth2')
 
     user_api = UserApi.UserApi(airseed)
-    user_profile = user_api.get_user_by_id(id = 'me', bearer_token='a_bearer_token')
-    products_data_for_user = user_api.get_data_for_user(id='me', bearer_token='a_bearer_token', category='product')
+    user_profile = user_api.get_user_by_id(id = 'me', bearer_token = 'a_bearer_token')
+    products_data_for_user = user_api.get_data_for_user(id = 'me', bearer_token = 'a_bearer_token', category = 'product')
 
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/airseed.rb/fork )
+1. Fork it ( https://github.com/[my-github-username]/airseed.py/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
