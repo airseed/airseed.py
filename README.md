@@ -10,6 +10,8 @@ To install it, simply:
 
 ## Usage
 
+    import os
+
     import Airseed
     from lib import *
 
