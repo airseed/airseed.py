@@ -22,8 +22,8 @@ To install it, simply:
     oauth.login(provider = 'google_auth2')
 
     user_api = UserApi.UserApi(airseed)
-    user_profile = user_api.get_user_by_id(id = 'me', bearer_token = 'a_bearer_token')
-    products_data_for_user = user_api.get_data_for_user(id = 'me', bearer_token = 'a_bearer_token', category = 'product')
+    user_profile = user_api.get_user_by_id(id = 'c2edddfaefe2c81a8696291c6fc5c97f6f75461b', bearer_token = 'a_bearer_token')
+    user_products = user_api.get_data_for_user(id = 'c2edddfaefe2c81a8696291c6fc5c97f6f75461b', bearer_token = 'a_bearer_token', category = 'product')
 
 
 ## Contributing
